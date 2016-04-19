@@ -1,0 +1,9 @@
+<h1><%= @artist.name %></h1>
+
+<h3><%= image_tag(@artist.image) %></h3>
+
+<h2>Songs</h2>
+
+<% songs = @artist.songs.all %>
+
+<%= render songs, hide_artist: true %>

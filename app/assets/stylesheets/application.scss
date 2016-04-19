@@ -1,0 +1,28 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+div#main {
+  margin: 100px;
+}
+
+img {
+  width: 300px;
+}
+
+div.inline {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+div.novel-item {
+   margin-top: 14px;
+
+   .cover {
+      margin-right: 10px;
+   }
+
+   .details {
+      width: 400px;
+   }
+}
