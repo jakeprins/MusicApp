@@ -2,7 +2,7 @@
 
    <div class="inline details">
 
-      <h3><%= link_to song.title, song %></h3>
+      <p><%= link_to song.title, song %></p>
       <% if !defined?(hide_artist) || !hide_artist %>
         <h4><%= link_to song.artist.name, song.artist %></h4>
       <% end %>
